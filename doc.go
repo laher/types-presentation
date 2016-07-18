@@ -1,6 +1,8 @@
 // Topics:
-// * Composition, embedding and subtyping for polymorphism
+//
+// * Composition, embedding and subtyping
 //   ** Composition vs inheritance.
+//	*** http://spf13.com/post/is-go-object-oriented
 //   ** Embedding
 //	** For common methods
 //	** For common members
@@ -11,17 +13,18 @@
 //
 // * Mocking with interfaces and Mockery
 //	** Interfaces
-//	** putting it all together
+//	** Use mockery for automated mocks
 
 // Topic suggestions:
 // * interfaces
 // * channels
 // * Pointers: pointer receivers, significance of copy-by-value, etc
+// * function types
+// * anonymous types
 // * nils
 // * errors.Error
 // * Multiple returns
 // * Parameter objects - methods, channels and returns
 // * Type casting
 // * reflection
-
 package types

@@ -1,3 +1,6 @@
+// Examples:
+// https://blog.golang.org/examples (for sorting)
+//
 package types
 
 import "fmt"

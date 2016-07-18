@@ -12,7 +12,7 @@ type Container struct {
 }
 
 func (c Container) Do() string {
-	return c.Notify()
+	return c.Notifier.Notify()
 }
 
 func TestMock(t *testing.T) {
